@@ -16,7 +16,7 @@ st.set_page_config(layout="wide", page_title="Image Background Remover")
 
 st.write("## 😶‍🌫️ :rainbow[ 이미지의 배경을 지워 보아요 ] 🫣")
 st.write(
-    ":dog: Try uploading an image to watch the background magically removed. Full quality images can be downloaded from the sidebar. This code is open source and available [here](https://github.com/tyler-simons/BackgroundRemoval) on GitHub. Special thanks to the [rembg library](https://github.com/danielgatis/rembg) :grin:"
+    ":dog: 이미지를 업로드하여 배경이 마법처럼 지워지는 것을 경험해 보세요. 스트림릿에 업로드되어 있는 오픈 소스를 참고했습니다. [here](https://github.com/tyler-simons/BackgroundRemoval) on GitHub. Special thanks to the [rembg library](https://github.com/danielgatis/rembg) :grin:"
 )
 st.sidebar.write("## Upload and download :gear:")
 
@@ -147,4 +147,5 @@ else:
             fix_image(img_path)
             break
     else:
+
         st.info("Please upload an image to get started!")
